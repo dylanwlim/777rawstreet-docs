@@ -2,15 +2,15 @@
 
 ## Current direction
 
-Active private rebuild repository. Public docs describe the site and cutover posture without exposing source or credentials.
+777 Raw Street is active and the guides track user-visible behavior, access paths, and product status.
 
 ## Near-term priorities
 
-- Complete strict live-site parity before redesign or route cleanup.
-- Prove Cloudflare preview/deploy readiness with the required operator credentials.
-- Verify real contact delivery before cutover.
-- Treat copy refreshes, route renames, and broader redesign as post-parity work.
+- Keep rebuilt routes aligned with the current live site during parity.
+- Stabilize bilingual copy, crew entries, videos, images, and contact feedback.
+- Complete hosting cutover only after parity and validation pass.
+- Use guide updates to track user-visible changes after launch.
 
-## Public roadmap rule
+## Feedback
 
-Roadmap items here are product-facing and may change. Private implementation plans, provider setup, infrastructure work, internal prompts, customer-specific commitments, and unreleased proprietary logic stay in the private repository.
+Use [Discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions) to ask questions, report stale guide steps, or suggest roadmap clarifications.

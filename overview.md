@@ -6,14 +6,16 @@
 
 ## Who it is for
 
-- Visitors learning about the studio, action design work, crew, and contact path.
-- Operators preparing a move from the live Wix site to a self-managed web deployment.
-- Reviewers checking the public product shape without publishing private source or mail setup.
+- Visitors exploring the studio, crew, videos, and contact path.
+- Collaborators reviewing bilingual page parity and content structure.
+- Reviewers checking the current website experience and cutover plan.
 
-## Product status
+## Access
 
-Active private rebuild repository. Public docs describe the site and cutover posture without exposing source or credentials.
+- Website: [https://www.777rawstreet.com](https://www.777rawstreet.com)
+- Discussions: [https://github.com/dylanwlim/777rawstreet-docs/discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions)
+- Welcome thread: [https://github.com/dylanwlim/777rawstreet-docs/discussions/1](https://github.com/dylanwlim/777rawstreet-docs/discussions/1)
 
-## Public documentation boundary
+## Guide freshness
 
-These docs describe the product experience and high-level technology choices. They intentionally avoid private source structure, deployment internals, provider secrets, database schemas, API implementation, auth/session internals, and client-sensitive records.
+These guides refresh after product documentation updates and are checked on a daily sync. Product behavior can move faster than written guides, so use Discussions to flag anything that looks out of date.

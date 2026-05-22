@@ -1,24 +1,21 @@
 # How It Works
 
-## High-level product structure
+## Product structure
 
-- Public marketing routes for home, about, action design, team, and contact.
-- Bilingual route variants for the current live-site parity phase.
-- Centralized public content, image assets, video references, shared header/footer, and contact form behavior.
-- Validation covers lint, type checking, tests, Next build, and Cloudflare build output.
+- Marketing routes cover home, about, action design, team, and contact.
+- Bilingual route variants support the current live-site parity phase.
+- Shared content, image assets, video references, header/footer, and contact form behavior keep the site consistent.
+- Validation covers lint, type checking, tests, app build, and target hosting output.
 
-## Technology at a safe public level
+## Technology
 
 - Next.js App Router, React, TypeScript, and vendored public assets/fonts.
 - OpenNext on Cloudflare Workers for the target deployment path.
 - A Cloudflare-compatible contact delivery path at a high level.
-- GitHub Actions validation for the private repository.
+- GitHub Actions validation for repeatable site checks.
 
-## What is intentionally not documented here
+## Update flow
 
-- Source-code layout beyond broad product areas.
-- API implementation details.
-- Database schemas or migrations.
-- Auth, session, token, or authorization internals.
-- Deployment secrets, provider credentials, or private infrastructure.
-- Hidden routes, internal prompts, proprietary algorithms, or client-sensitive data.
+- Product documentation changes are published to this guide repository automatically.
+- A daily sync checks for guide updates after product work lands.
+- Manual updates can also be published when a guide needs an immediate correction.

@@ -1,19 +1,20 @@
 # Build and Run
 
-The source repository for 777 Raw Street remains private. The notes below are safe public-level orientation for people with source access.
+## Normal access
 
-## Local development
+Most readers should start with the website: [https://www.777rawstreet.com](https://www.777rawstreet.com). Use the guides in this repository for workflow orientation, access notes, and release status.
 
-- Use Node.js 22+ and npm.
+## Local development orientation
+
+- Use Node.js 24.x and npm.
 - Install dependencies with npm install.
-- Run npm run dev for local parity review.
-- Run npm run validate for lint, typecheck, tests, Next build, and Cloudflare build validation.
-- Use private setup docs for Cloudflare authentication and contact delivery configuration.
+- Run npm run dev for local development.
+- Run npm run validate before release or cutover work.
 
 ## Validation
 
-Use the private repository's documented validation scripts before publishing or deploying source changes. For documentation-only work, verify links, file names, and public-safe language before publishing.
+Before release work, run the validation commands that match the changed surface. For guide-only updates, verify links, headings, and product wording before publishing.
 
-## Public docs publishing
+## Documentation updates
 
-The private source repository contains a docs-only publish workflow. It copies allowlisted Markdown files from `docs-public/` into this public documentation repository and runs a leak check before publishing.
+Guides are published automatically after documentation changes and checked once per day. Use [Discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions) for stale pages, access questions, or suggested clarifications.

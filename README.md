@@ -1,10 +1,16 @@
 # 777 Raw Street
 
-Public website rebuild for a New York action and art film studio.
+Website rebuild for a New York action and art film studio.
 
 777 Raw Street is a website rebuild for a New York film studio specializing in action film production, action design, crew presentation, bilingual pages, video showcases, and contact flows. The current phase is strict parity with the existing live site.
 
-## Documentation
+## Start here
+
+- Website: [https://www.777rawstreet.com](https://www.777rawstreet.com)
+- Discussions: [ask questions and suggest guide improvements](https://github.com/dylanwlim/777rawstreet-docs/discussions)
+- Welcome thread: [https://github.com/dylanwlim/777rawstreet-docs/discussions/1](https://github.com/dylanwlim/777rawstreet-docs/discussions/1)
+
+## Guides
 
 - [Overview](overview.md)
 - [Product guide](product-guide.md)
@@ -13,7 +19,8 @@ Public website rebuild for a New York action and art film studio.
 - [Roadmap](roadmap.md)
 - [Changelog](changelog.md)
 - [Security and privacy](security-and-privacy.md)
+- [Access and updates](setup.md)
 
-## Public documentation boundary
+## Updates
 
-This repository contains product-facing documentation only. It does not mirror source code, private implementation details, deployment configuration, secrets, API internals, database schemas, auth/session internals, private prompts, client-sensitive details, or proprietary implementation logic.
+These guides refresh after product documentation updates and are checked on a daily sync. If something looks stale, open a Discussion with the page name and the step that needs attention.
