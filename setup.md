@@ -4,9 +4,11 @@ This private repository publishes `docs-public/` to `dylanwlim/777rawstreet-docs
 
 ## Required GitHub Actions secret
 
-Add a secret named `PUBLIC_DOCS_REPO_TOKEN` to this private source repository.
+This repository uses `PUBLIC_DOCS_REPO_TOKEN` as the publish credential.
 
-The token should be a fine-grained GitHub token with Contents read/write access only to `dylanwlim/777rawstreet-docs`. Do not grant access to the private source repository or any unrelated repository.
+Current setup: the secret is an SSH deploy key private key whose matching public key has write access only to `dylanwlim/777rawstreet-docs`. This avoids broad account tokens and does not grant access to the private source repository.
+
+If the credential is rotated, create a new deploy key for `dylanwlim/777rawstreet-docs` and store the private key in `PUBLIC_DOCS_REPO_TOKEN`. A fine-grained GitHub token with Contents read/write access only to `dylanwlim/777rawstreet-docs` is also supported. Do not use a classic or account-wide token.
 
 ## Workflow behavior
 
