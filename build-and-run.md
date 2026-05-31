@@ -15,6 +15,6 @@
 
 The public homepage is live with English/Chinese entry links, carousel controls, About Us, Team, Action Design, and Contact Us navigation.
 
-## Automated Public Docs
+## Public Docs Updates
 
-The publish workflow runs on main-branch updates, manual dispatch, and a daily schedule. It refreshes `assets/homepage.png`, validates the public guide set, and publishes the files to the public docs repository.
+Public docs updates are manual while automatic publishing is paused. A maintainer can run the publish workflow when the approved guide files and screenshot should be mirrored to the public docs repository.
