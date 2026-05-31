@@ -1,16 +1,13 @@
 # Roadmap
 
-## Current direction
+This roadmap covers public-facing guide and user-surface work only.
 
-777 Raw Street is active and the guides track user-visible behavior, access paths, and product status.
+## Current Priorities
 
-## Near-term priorities
+- Keep public docs aligned with the visible navigation and bilingual homepage flow.
+- Refresh guide text when the studio pages or contact path change.
+- Keep the homepage screenshot current through scheduled publishing.
 
-- Keep rebuilt routes aligned with the current live site during parity.
-- Stabilize bilingual copy, crew entries, videos, images, and contact feedback.
-- Complete hosting cutover only after parity and validation pass.
-- Use guide updates to track user-visible changes after launch.
+## Documentation Rule
 
-## Feedback
-
-Use [Discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions) to ask questions, report stale guide steps, or suggest roadmap clarifications.
+When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. The daily workflow will still refresh the homepage screenshot, but guide text should describe only behavior that is actually available to public users.

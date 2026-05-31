@@ -1,22 +1,24 @@
 # Product Guide
 
-## User experience
+Use this page as the practical user manual for the public surface that is available now.
 
-- Browse the home, about, action design, team, and contact pages.
-- Switch between English and Chinese page variants where supported.
-- Watch embedded action design and fight-scene showcase videos.
-- Submit the contact form or use the fallback contact path when mail delivery is unavailable.
+## Main Flow
 
-## Main workflows
+1. Open the public homepage.
+2. Choose English or Chinese if prompted by the visible entry links.
+3. Use the top navigation to browse studio information, team, action design, or contact details.
 
-- Parity review: compare each rebuilt route to the current live page.
-- Content review: keep route names, copy, crew entries, video titles, image treatment, and ordering aligned during parity.
-- Contact review: keep controlled form feedback and fallback contact behavior.
-- Cutover preparation: validate the production build and final hosting path before launch.
+## Current Actions
 
-## Product principles
+| Area | Current public flow |
+| --- | --- |
+| Choose language | Use the English or Chinese entry points shown on the public homepage. |
+| Browse studio pages | Use About Us, Team, Home, Action Design, and Contact Us navigation. |
+| Review homepage media | Use carousel controls to move through featured homepage slides. |
+| Contact the studio | Use the Contact Us page path shown in the public navigation. |
 
-- Keep the interface direct, explicit, and honest about what the product can prove.
-- Show unavailable or limited states clearly instead of hiding important constraints.
-- Keep guide claims tied to behavior that exists in the product.
-- Use Discussions for access questions, confusing steps, and guide feedback.
+## Notes For Use
+
+- Bilingual entry: The homepage exposes English and Chinese entry points for visitors.
+- Studio navigation: The public site is organized around studio background, team, action design, and contact pages.
+- Media-forward home: The homepage carousel is the primary visual entry point.

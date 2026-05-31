@@ -1,21 +1,23 @@
-# Access and Updates
+# Access And Updates
 
-## Website
+## Public Entry Points
 
-Open [https://www.777rawstreet.com](https://www.777rawstreet.com) for the current product or guide entry point.
+- Public site: [https://777rawstreet.com](https://777rawstreet.com)
+- Public discussions: [https://github.com/dylanwlim/777rawstreet-docs/discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions)
 
-## Discussions
+## Current Use
 
-Use [Discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions) for:
+1. Open the public homepage.
+2. Choose English or Chinese if prompted by the visible entry links.
+3. Use the top navigation to browse studio information, team, action design, or contact details.
 
-- access questions
-- product workflow questions
-- guide corrections
-- stale links or outdated screenshots
-- suggestions for clearer examples
+## How These Docs Stay Current
 
-Start with the welcome thread: [https://github.com/dylanwlim/777rawstreet-docs/discussions/1](https://github.com/dylanwlim/777rawstreet-docs/discussions/1).
+- Source guide files live under `docs-public/`.
+- The publish workflow runs after main-branch updates, by manual dispatch, and once per day.
+- The workflow captures a fresh homepage screenshot before publishing.
+- The workflow publishes only the approved guide files and homepage screenshot asset.
 
-## Update cadence
+## Feedback
 
-These guides are checked daily and refresh after product documentation updates. If product behavior changes before the guide catches up, open a Discussion with the page name and the expected correction.
+Open a Discussion with the guide page name, the unclear section, and the public behavior you expected the guide to describe.

@@ -1,26 +1,50 @@
 # 777 Raw Street
 
-Website rebuild for a New York action and art film studio.
+<p align="center">
+  <a href="https://777rawstreet.com"><img src="assets/homepage.png" alt="777 Raw Street homepage screenshot" width="900"></a>
+</p>
 
-777 Raw Street is a website rebuild for a New York film studio specializing in action film production, action design, crew presentation, bilingual pages, video showcases, and contact flows. The current phase is strict parity with the existing live site.
+<p align="center"><strong>Public website for a New York action and art film studio.</strong></p>
 
-## Start here
+<p align="center">
+  <a href="https://777rawstreet.com">Open the public site</a> ·
+  <a href="product-guide.md">Product guide</a> ·
+  <a href="changelog.md">Changelog</a> ·
+  <a href="https://github.com/dylanwlim/777rawstreet-docs/discussions">Discussions</a>
+</p>
 
-- Website: [https://www.777rawstreet.com](https://www.777rawstreet.com)
-- Discussions: [ask questions and suggest guide improvements](https://github.com/dylanwlim/777rawstreet-docs/discussions)
-- Welcome thread: [https://github.com/dylanwlim/777rawstreet-docs/discussions/1](https://github.com/dylanwlim/777rawstreet-docs/discussions/1)
+777 Raw Street presents a bilingual studio website with homepage carousel content and public navigation for About Us, Team, Action Design, and Contact Us.
 
-## Guides
+## What You Can Do Today
+
+| Area | Current public flow |
+| --- | --- |
+| Choose language | Use the English or Chinese entry points shown on the public homepage. |
+| Browse studio pages | Use About Us, Team, Home, Action Design, and Contact Us navigation. |
+| Review homepage media | Use carousel controls to move through featured homepage slides. |
+| Contact the studio | Use the Contact Us page path shown in the public navigation. |
+
+## Start Here
+
+1. Open the public homepage.
+2. Choose English or Chinese if prompted by the visible entry links.
+3. Use the top navigation to browse studio information, team, action design, or contact details.
+
+## Guide Index
 
 - [Overview](overview.md)
 - [Product guide](product-guide.md)
 - [How it works](how-it-works.md)
-- [Build and run](build-and-run.md)
+- [Access guide](build-and-run.md)
 - [Roadmap](roadmap.md)
 - [Changelog](changelog.md)
 - [Security and privacy](security-and-privacy.md)
 - [Access and updates](setup.md)
 
+## Current Status
+
+The public homepage is live with English/Chinese entry links, carousel controls, About Us, Team, Action Design, and Contact Us navigation.
+
 ## Updates
 
-These guides refresh after product documentation updates and are checked on a daily sync. If something looks stale, open a Discussion with the page name and the step that needs attention.
+The public docs publish automatically from the source guide files. On every main-branch update and daily sync, the workflow refreshes the homepage screenshot, validates the public allowlist, checks guide text for credential-like patterns, and mirrors the result into this public docs repository.

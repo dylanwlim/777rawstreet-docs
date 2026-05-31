@@ -1,20 +1,20 @@
-# Build and Run
+# Access Guide
 
-## Normal access
+## Open The Public Surface
 
-Most readers should start with the website: [https://www.777rawstreet.com](https://www.777rawstreet.com). Use the guides in this repository for workflow orientation, access notes, and release status.
+- Public site: [https://777rawstreet.com](https://777rawstreet.com)
+- Discussions: [https://github.com/dylanwlim/777rawstreet-docs/discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions)
 
-## Local development orientation
+## Use The Current Flow
 
-- Use Node.js 24.x and npm.
-- Install dependencies with npm install.
-- Run npm run dev for local development.
-- Run npm run validate before release or cutover work.
+1. Open the public homepage.
+2. Choose English or Chinese if prompted by the visible entry links.
+3. Use the top navigation to browse studio information, team, action design, or contact details.
 
-## Validation
+## Current Availability
 
-Before release work, run the validation commands that match the changed surface. For guide-only updates, verify links, headings, and product wording before publishing.
+The public homepage is live with English/Chinese entry links, carousel controls, About Us, Team, Action Design, and Contact Us navigation.
 
-## Documentation updates
+## Automated Public Docs
 
-Guides are published automatically after documentation changes and checked once per day. Use [Discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions) for stale pages, access questions, or suggested clarifications.
+The publish workflow runs on main-branch updates, manual dispatch, and a daily schedule. It refreshes `assets/homepage.png`, validates the public guide set, and publishes the files to the public docs repository.

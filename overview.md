@@ -1,21 +1,22 @@
 # Overview
 
-## What 777 Raw Street does
+777 Raw Street presents a bilingual studio website with homepage carousel content and public navigation for About Us, Team, Action Design, and Contact Us.
 
-777 Raw Street is a website rebuild for a New York film studio specializing in action film production, action design, crew presentation, bilingual pages, video showcases, and contact flows. The current phase is strict parity with the existing live site.
+## Public Surface
 
-## Who it is for
+The public homepage is live with English/Chinese entry links, carousel controls, About Us, Team, Action Design, and Contact Us navigation.
 
-- Visitors exploring the studio, crew, videos, and contact path.
-- Collaborators reviewing bilingual page parity and content structure.
-- Reviewers checking the current website experience and cutover plan.
+## Current Public Actions
 
-## Access
+| Area | Current public flow |
+| --- | --- |
+| Choose language | Use the English or Chinese entry points shown on the public homepage. |
+| Browse studio pages | Use About Us, Team, Home, Action Design, and Contact Us navigation. |
+| Review homepage media | Use carousel controls to move through featured homepage slides. |
+| Contact the studio | Use the Contact Us page path shown in the public navigation. |
 
-- Website: [https://www.777rawstreet.com](https://www.777rawstreet.com)
-- Discussions: [https://github.com/dylanwlim/777rawstreet-docs/discussions](https://github.com/dylanwlim/777rawstreet-docs/discussions)
-- Welcome thread: [https://github.com/dylanwlim/777rawstreet-docs/discussions/1](https://github.com/dylanwlim/777rawstreet-docs/discussions/1)
+## Best First Step
 
-## Guide freshness
-
-These guides refresh after product documentation updates and are checked on a daily sync. Product behavior can move faster than written guides, so use Discussions to flag anything that looks out of date.
+1. Open the public homepage.
+2. Choose English or Chinese if prompted by the visible entry links.
+3. Use the top navigation to browse studio information, team, action design, or contact details.

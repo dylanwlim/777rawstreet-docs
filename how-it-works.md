@@ -1,21 +1,19 @@
 # How It Works
 
-## Product structure
+777 Raw Street is documented here from the public user's point of view.
 
-- Marketing routes cover home, about, action design, team, and contact.
-- Bilingual route variants support the current live-site parity phase.
-- Shared content, image assets, video references, header/footer, and contact form behavior keep the site consistent.
-- Validation covers lint, type checking, tests, app build, and target hosting output.
+## Bilingual entry
 
-## Technology
+The homepage exposes English and Chinese entry points for visitors.
 
-- Next.js App Router, React, TypeScript, and vendored public assets/fonts.
-- OpenNext on Cloudflare Workers for the target deployment path.
-- A Cloudflare-compatible contact delivery path at a high level.
-- GitHub Actions validation for repeatable site checks.
+## Studio navigation
 
-## Update flow
+The public site is organized around studio background, team, action design, and contact pages.
 
-- Product documentation changes are published to this guide repository automatically.
-- A daily sync checks for guide updates after product work lands.
-- Manual updates can also be published when a guide needs an immediate correction.
+## Media-forward home
+
+The homepage carousel is the primary visual entry point.
+
+## Publishing Model
+
+The public guide files live under `docs-public/` in the source repository. The publishing workflow captures the current homepage screenshot, validates the public docs allowlist, and mirrors the result into `dylanwlim/777rawstreet-docs`.
